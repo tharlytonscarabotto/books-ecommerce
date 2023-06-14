@@ -113,3 +113,27 @@ body {
     background: url("../images/search.png") no-repeat;
     background-position: 1em;
 }
+
+/*  BOOKS CAROUSEL*/
+.carousel__title {
+    text-align: center;
+    color: var(--yellow);
+    background-color: var(--white);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1em 0 .5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}

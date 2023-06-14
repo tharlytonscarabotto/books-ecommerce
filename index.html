@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewBooks</title>
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -38,9 +39,39 @@
             <p class="banner__text">Find the exact book that you need in our shelves!</p>
             <input type="search" class="banner__input" placeholder="What's your next book?">
         </section>
+        <section class="carousel">
+            <h2 class="carousel__title">Last Releases</h2>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/hp1.jpg" alt="HP1"></div>
+                    <div class="swiper-slide"><img src="images/hp2.jpg" alt="HP2"></div>
+                    <div class="swiper-slide"><img src="images/hp3.jpg" alt="HP3"></div>
+                    <div class="swiper-slide"><img src="images/hp4.jpg" alt="HP4"></div>
+                    <div class="swiper-slide"><img src="images/hp5.jpg" alt="HP5"></div>
+                    <div class="swiper-slide"><img src="images/hp6.jpg" alt="HP6"></div>
+                    <div class="swiper-slide"><img src="images/hp7.jpg" alt="HP7"></div>
+                    ...
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
     </main>
 
     <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 
 </html>
