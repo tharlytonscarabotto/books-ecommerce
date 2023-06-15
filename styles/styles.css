@@ -137,3 +137,53 @@ body {
     position: initial;
     margin: .5em 0;
 }
+
+/* CARD */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 20px;
+    margin: .7em;
+    padding: 1em;
+}
+
+.card-description__subtitle {
+    color: var(--yellow);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-description__title {
+    color: #002F52;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.card-description__text {
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.card-picture {
+    align-items: center;
+}
+
+.card-picture img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.card-picture a {
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--yellow);
+    color: var(--white);
+    font-size: 16px;
+    padding: .3em 1em;
+    text-align: center;
+    margin-left: .7em;
+    cursor: pointer;
+}
