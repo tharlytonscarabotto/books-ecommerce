@@ -222,3 +222,41 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+
+/* CONTACT */
+
+.contact {
+    padding: 2em;
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact__title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact__text {
+    margin: .5em 0 1.5em 0;
+}
+
+.contact__input {
+    background-color: transparent;
+    border: 1px solid #002F52;
+    border-radius: 24px;
+    color: #002F52;
+    padding: 1em;
+    width: 90%;
+}
+
+.contact__input::placeholder {
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #002F52;
+    text-align: center;
+    background: url("../images/email.png") no-repeat;
+    background-position: 1em;
+}
