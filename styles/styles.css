@@ -260,3 +260,15 @@ body {
     background: url("../images/email.png") no-repeat;
     background-position: 1em;
 }
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    border-top: solid 1px #002F52;
+}
+
+.footer__title {
+    color: #002F52;
+    padding: 1em;
+}
