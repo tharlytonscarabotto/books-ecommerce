@@ -187,3 +187,38 @@ body {
     margin-left: .7em;
     cursor: pointer;
 }
+
+/* TOPICS */
+
+.topics {
+    background: var(--blue-gradient);
+    text-align: center;
+    padding-top: 1em;
+}
+
+.topics__title {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.topics__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topics__item {
+    margin: 2em .5em;
+} 
+
+.topics__link {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--yellow);
+    padding: 1em;
+    font-size: 14px;
+    font-weight: bold;
+}
