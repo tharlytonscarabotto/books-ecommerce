@@ -29,6 +29,10 @@ body {
     align-items: center;
 }
 
+.container__title, .container__title__bold {
+    display: none;
+}
+
 .container__image {
     padding: .7em;
 }
@@ -271,4 +275,51 @@ body {
 .footer__title {
     color: #002F52;
     padding: 1em;
+}
+
+.options {
+    display: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1024px) {
+    .container__title, .container__title__bold {
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .container__title__bold {
+        font-weight: bold;
+    }
+
+    .container__image__hide {
+        display: none;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .options__item {
+        padding: 0 2em;
+        text-transform: uppercase;
+    }
+
+    .options__link {
+        text-decoration: none;
+        color: #002F52;
+    }
+
+    .header__burger-menu {
+        display: none;
+    }
+
+    .options__btn:checked~.menu-list {
+        display: block;
+    }
+
+    .options__btn {
+        display: none;
+    }
 }
