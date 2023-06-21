@@ -322,4 +322,92 @@ body {
     .options__btn {
         display: none;
     }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+    .banner__title {
+        font-size: 36px;
+    }
+
+    .banner__input {
+        width: 50%;
+    }
+
+    .carousel__title {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-slide img {
+        margin-right: 50em;
+    }
+ 
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        margin: 3em 15em;
+        padding: 2em;
+    }
+
+    .card-description__subtitle {
+        font-size: 24px;
+    }
+
+    .card-description__title {
+        font-size: 32px;
+    }
+
+    .card-description__text {
+        font-size: 24px;
+    }
+
+    .card-picture {
+        width: 150%;
+    } 
+
+    .card-picture a {
+       display: none;
+    }
+
+    .topics {
+        padding: 2em;
+    }
+
+    .topics__title {
+        font-size: 24px;
+    }
+
+    .topics__item {
+        padding: .5em 1em;
+    }
+
+    .topics__link {
+        font-size: 24px;
+    }
+
+    .contact {
+        display: flex;
+        padding: 3em 5em;
+    }
+
+    .contact__title{
+        font-size: 24px;
+    }
+    .contact input {
+        margin-left: 5em;
+        width: 50%;
+        height: 50%;
+    }
 }
