@@ -5,7 +5,7 @@
     --background-color: #EBECEE;
     --white: #FFFFFF;
     --yellow: #EB9B00;
-    --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%); 
+    --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {
@@ -29,7 +29,8 @@ body {
     align-items: center;
 }
 
-.container__title, .container__title__bold {
+.container__title,
+.container__title__bold {
     display: none;
 }
 
@@ -60,7 +61,8 @@ body {
     display: none;
 }
 
-.menu-list__title, .menu-list__item {
+.menu-list__title,
+.menu-list__item {
     padding: 1em;
     background-color: var(--white);
 }
@@ -133,7 +135,8 @@ body {
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
@@ -216,7 +219,7 @@ body {
 
 .topics__item {
     margin: 2em .5em;
-} 
+}
 
 .topics__link {
     text-decoration: none;
@@ -281,10 +284,16 @@ body {
     display: none;
 }
 
+.container__text {
+    display: none;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 1024px) {
-    .container__title, .container__title__bold {
+
+    .container__title,
+    .container__title__bold {
         font-size: 30px;
         display: inline-block;
     }
@@ -350,8 +359,9 @@ body {
     .swiper-slide img {
         margin-right: 50em;
     }
- 
-    .swiper-button-prev, .swiper-button-next {
+
+    .swiper-button-prev,
+    .swiper-button-next {
         display: block;
         top: 60%;
     }
@@ -375,10 +385,10 @@ body {
 
     .card-picture {
         width: 150%;
-    } 
+    }
 
     .card-picture a {
-       display: none;
+        display: none;
     }
 
     .topics {
@@ -402,12 +412,65 @@ body {
         padding: 3em 5em;
     }
 
-    .contact__title{
+    .contact__title {
         font-size: 24px;
     }
+
     .contact input {
         margin-left: 5em;
         width: 50%;
         height: 50%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .header {
+        padding: 0 3em;
+    }
+
+    .container__text {
+        display: block;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        padding: 0 2em;
+    }
+
+    .options {
+        margin-right: auto;
+    }
+
+    .banner__input {
+        width: 40%;
+    }
+
+    .banner__input::placeholder {
+        background-position: 15em;
+    }
+
+    .carousel__container {
+        display: flex;
+    }
+
+    .card {
+        align-items: center;
+        margin: 2em 30em;
+    }
+
+    .card-picture img {
+        width: 50%;
+        margin-left: 8em;
+    }
+
+    .topics__item {
+        padding: 0;
+    }
+
+    .contact {
+        justify-content: space-around;
     }
 }
